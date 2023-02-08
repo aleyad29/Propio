@@ -33,7 +33,7 @@ m.reply(`╭──────────────────
 //no me roben la decoracion, no tengo creatividad
 
 let menuA = `
-*╭━━❍𝐃𝐎𝐑𝐑𝐀𝐓-𝐁𝐎𝐓-𝐌𝐃❍━━╮*
+*╭━━❍𝐉𝐞𝐧𝐧𝐱𝐓𝐚𝐭𝐢❍━━╮*
 *┃ ╭━━━━━━━━━━━━━━━━╮*
 *┃ ┃ ╭┈────────────╮*
 *┃ ┃ │❍  𝐌𝐄𝐍𝐔 ❍*
@@ -44,7 +44,7 @@ let menuA = `
 *┃┃  ❍ ${ucapan()} ❍*
 *┃┣━━━━━━━━━━━━━━━━╾•*
 *┃┃ ▢ CREADOR DEL BOT:  ${creatorname}*
-*┃┃ ▢ NUMERO DEL CREADOR: wa.me/593959425714 (𝐍𝐎 𝐁𝐎𝐓)*
+*┃┃ ▢ NUMERO DEL CREADOR: wa.me/51928500082 (𝐍𝐎 𝐁𝐎𝐓)*
 *┃┃ ▢ VERSION » ${vs}*
 *┃┃ ▢ FECHA » ${week}, ${date}*
 *┃┃ ▢ TIEMPO ACTIVO » ${uptime}*
@@ -52,7 +52,7 @@ let menuA = `
 *┃┃ ▢ LENGUAJE » 𝐄𝐒𝐏𝐀𝐍̃𝐎𝐋*
 *┃┃ ▢ USUARIOS » ${Object.keys(global.db.data.users).length}*
 *┃╰━━━━━━━━━━━━━━━━╾•*
-*╰━━━╼𝐃𝐎𝐑𝐑𝐀𝐓-𝐁𝐎𝐓-𝐌𝐃╾━━━╯*`.trim()
+*╰━━━╼𝐉𝐞𝐧𝐧𝐱𝐓𝐚𝐭𝐢╾━━━╯*`.trim()
 
 let menuB = `
 *═〔 INFO DEL USUARIO 〕⬣═*
@@ -232,6 +232,9 @@ let menuB = `
 ├➢${usedPrefix}setname <texto
 ├➢${usedPrefix}setdesc <texto
 ├➢${usedPrefix}invocar <texto
+├➢${usedPrefix}jenn <texto
+├➢${usedPrefix}tati <texto
+├➢${usedPrefix}jenta <texto
 ├➢${usedPrefix}setwelcome <texto
 ├➢${usedPrefix}setbye <texto
 ├➢${usedPrefix}hidetag <texto
@@ -546,7 +549,7 @@ let menuB = `
 ├➢_${usedPrefix}listprem_
 └────ׂ─ׂ─ׂ─ׂ───
  ━━━━━━━━━━━━━━━━━━━━━━━━━
-┃𝐃𝐎𝐑𝐑𝐀𝐓-𝐁𝐎𝐓-𝐌𝐃 𝐁𝐘 𝐃𝐈𝐄𝐆𝐎-𝐎𝐅𝐂┃
+┃𝐓𝐡𝐞 𝐌𝐲𝐬𝐭𝐢𝐜 𝐀𝐥𝐞┃
  ━━━━━━━━━━━━━━━━━━━━━━━━━
 `.trim()
 conn.sendButton(m.chat, menuA, menuB, db, [

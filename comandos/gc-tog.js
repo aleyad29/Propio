@@ -4,16 +4,16 @@ global.dfail('admin', m, conn)
 throw false
 }
 let pesan = args.join` `
-let oi = `*▪𝙼𝙴𝙽𝚂𝙰𝙹𝙴:* ${pesan}`
-let teks = `*⺀𝐀𝐂𝐓𝐈𝐕𝐄𝐍𝐒𝐄 𝐁𝐎𝐓𝐒 - 𝐁𝐨𝐭𝐉𝐞𝐧𝐧𝐱𝐓𝐚𝐭𝐢⺀*\n\n▪ ${oi}\n\n▪ *𝐄𝐭𝐢𝐪𝐮𝐞𝐭𝐚 𝐠𝐞𝐧𝐞𝐫𝐚𝐥:*\n`
+let oi = `*▪𝐁𝐨𝐭𝐉𝐞𝐧𝐧𝐱𝐓𝐚𝐭𝐢:* ${pesan}`
+let teks = `*⺀𝐄𝐓𝐈𝐐𝐔𝐄𝐓𝐀 𝐃𝐄 𝐁𝐨𝐭𝐉𝐞𝐧𝐧𝐱𝐓𝐚𝐭𝐢⺀*\n\n▪ ${oi}\n\n▪ *𝐄𝐭𝐢𝐪𝐮𝐞𝐭𝐚 𝐠𝐞𝐧𝐞𝐫𝐚𝐥:*\n`
 for (let mem of participants) {
 teks += `┣✉️ @${mem.id.split('@')[0]}\n`}
 teks += `└𝐉𝐞𝐧𝐧𝐱𝐓𝐚𝐭𝐢`
 conn.sendMessage(m.chat, { text: teks, mentions: participants.map(a => a.id) }, )
 }
-handler.help = ['tagall <mesaje>','invocar <mesaje>']
+handler.help = ['tog <mesaje>','jenta <mesaje>']
 handler.tags = ['group']
-handler.command = /^(tagall|invocar|invocacion|todos|invocación)$/i
+handler.command = /^(tog|jenta)$/i
 handler.admin = true
 handler.group = true
 export default handler

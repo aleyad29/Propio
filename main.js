@@ -79,7 +79,7 @@ getMessage: async (key) => ( opts.store.loadMessage(/** @type {string} */(key.re
 msgRetryCounterMap,
 logger: pino({ level: 'silent' }),
 auth: state,
-browser: ['Dorrat-Termux','Safari','9.7.0']
+browser: ['Aleizn-MD','Safari','9.7.0']
 }
 
 global.conn = makeWASocket(connectionOptions)
