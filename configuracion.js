@@ -73,7 +73,7 @@ global.APIKeys = { // APIKey Here
 global.lenguajeGB = es
 
 /* ______________________________________________ */
-global.creadorname = '𝐉𝐞𝐧𝐧𝐱𝐓𝐚𝐭𝐢'
+global.creadorname = '𝐓𝐡𝐞 𝐌𝐲𝐬𝐭𝐢𝐜 𝐀𝐥𝐞'
 global.creatorname = creadorname
 global.library = 'BAILEYS-MD'
 global.vs = 'V10'
