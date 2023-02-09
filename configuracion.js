@@ -7,12 +7,12 @@ import { en, es, pt } from './lib/idiomas/total-idiomas.js'
 
 //cambia los números que sean propietarios 
 global.owner = [
-  ['51928500082', '🔰 𝐀𝐥𝐞 - 𝐂𝐑𝐄𝐀𝐃𝐎𝐑 🔰', true],
+  ['5493878224071', '🔰 𝐀𝐥𝐞 - 𝐂𝐑𝐄𝐀𝐃𝐎𝐑 🔰', true],
   ['51993138466', '🔰  𝐃𝐎𝐑𝐑𝐀𝐓∆𝐁𝐎𝐓 - 𝙲𝙾𝙻𝙻𝙰𝙱𝙾𝚁𝙰𝚃𝙾𝚁 1 🔰', true],
   ['595986674310']
 
 ] 
-global.suittag = ['51928500082'] 
+global.suittag = ['5493878224071'] 
 global.mods = ['595986674310'] 
 global.prems = [] 
 
@@ -73,7 +73,7 @@ global.APIKeys = { // APIKey Here
 global.lenguajeGB = es
 
 /* ______________________________________________ */
-global.creadorname = '𝐉𝐞𝐧𝐧𝐱𝐓𝐚𝐭𝐢'
+global.creadorname = '𝐓𝐡𝐞 𝐌𝐲𝐬𝐭𝐢𝐜 𝐀𝐥𝐞'
 global.creatorname = creadorname
 global.library = 'BAILEYS-MD'
 global.vs = 'V10'
