@@ -23,7 +23,7 @@ let info = `
 ╠═〘 𝐈𝐍𝐅𝐎 𝐃𝐄𝐋 𝐁𝐎𝐓 〙 ═
 ╠
 ╠➢ [🤴🏻] *CREADOR: Ale*
-╠➢ [#️⃣] *NUMERO: +54 9 387 822 4071*
+╠➢ [#️⃣] *NUMERO: +51 918 186 761*
 ╠➢ [🎳] *PREFIJO: ${usedPrefix}*
 ╠➢ [🔐] *CHATS PRIVADOS: ${chats.length - groups.length}*
 ╠➢ [🦜] *CHAT DE GRUPOS: ${groups.length}* 
