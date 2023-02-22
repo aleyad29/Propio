@@ -14,13 +14,13 @@ let pp = './Menu2.jpg'
 
 //------------ BIO
 let teksbio = `
-*—◉ 𝙴𝙻 𝙽𝚄𝙼𝙴𝚁𝙾 𝙳𝙴 𝙼𝙸 𝙲𝚁𝙴𝙰𝙳𝙾𝚁 𝙴𝚂 wa.me/51918186761*
+*—◉ 𝙴𝙻 𝙽𝚄𝙼𝙴𝚁𝙾 𝙳𝙴 𝙼𝙸 𝙲𝚁𝙴𝙰𝙳𝙾𝚁 𝙴𝚂 wa.me/51992621601*
 
 ───────[ INFORMACIÓN DEL BOT ]───────
 
 ✅ *NOMBRE: Aleizn*
 🐈 *Github:* https://github.com/aleizn
-🥏 *Whatsapp* wa.me/51918186761
+🥏 *Whatsapp* wa.me/51992621601
 `
   let teks = ' '
 const sections = [
@@ -58,7 +58,7 @@ const listMessage = {
           conn.reply(m.chat, wm, m, { contextInfo: { mentionedJid: [nowner] }})
             break
             case 'bio':
-          conn.sendHydrated(m.chat, teksbio, wm, pp, "https://wa.me/51918186761 💬 ᴄʜᴀᴛs", null,null, [["Aleizn-MD", null], [null, null],[null,null]], m)
+          conn.sendHydrated(m.chat, teksbio, wm, pp, "https://wa.me/51992621601 💬 ᴄʜᴀᴛs", null,null, [["Aleizn-MD", null], [null, null],[null,null]], m)
             break
             
           default:
